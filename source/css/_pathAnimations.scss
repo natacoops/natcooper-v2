@@ -1,0 +1,319 @@
+.path, 
+#draw-01 path, 
+#draw-02 path, 
+#draw-03 path,
+#draw-06 path,
+#draw-07 path,
+#draw-08 path    {
+  animation: draw 4s 1;
+  stroke-linecap: round;
+  stroke-miterlimit: 10; 
+  stroke-dasharray: 300; 
+  stroke-dashoffset: 300;
+  animation-fill-mode: forwards;
+  animation-delay:2.75s;
+  stroke: rgba(224,224,224,0.8);
+  stroke-width: 1.5px;
+  fill: none;
+  stroke-linecap: round;
+}
+.path {
+	animation-delay: 3.3s;	
+	stroke: #e0e0e0;
+}
+.first {
+	stroke-dasharray: 400; 
+	stroke-dashoffset: 400;
+	animation-delay: 0.5s;
+	animation-duration: 6s;
+}
+.second {
+	animation-delay: 2.85s;
+	animation-duration: 3s;
+}
+
+svg.portrait {
+	position: relative;
+	width: 100%;
+	height: inherit;
+    min-width: 1150px;
+}
+svg.portrait image {
+	image-rendering: optimizeQuality;
+}
+#vertical-lines {
+	display: block;
+	z-index: 10;
+}
+#vertical-lines line {
+	// stroke: yellow;
+}
+
+#draw-01 path:nth-child(5),
+#draw-01 path:nth-child(6) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay: 0s;
+}
+#draw-01 path {
+	animation-delay: 0.75s;
+}
+#draw-01 path:nth-child(6) {
+	animation-delay: 0.92s;
+}
+#draw-01 path:nth-child(4),
+#draw-01 path:nth-child(3) {
+	animation-delay: 1.78s; /*+60s*/
+}
+#draw-02 path:first-child {
+	stroke-dasharray: 400; 
+	stroke-dashoffset: 400;
+	animation-delay: 2.38s;
+}
+#draw-02 path:nth-child(3) {
+	stroke-dasharray: 900; 
+	stroke-dashoffset: 900;
+	animation-delay: 2.38s;
+}
+#draw-01 path:first-child,
+#draw-01 path:nth-child(2) {
+	animation-delay: 2.58s;
+}
+#draw-03 path:nth-child(5) {
+	animation-delay: 4.4s;
+}
+#draw-03 path:nth-child(10) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay: 4.5s;
+}
+#draw-03 path:first-child {
+	animation-delay: 4.6s;
+}
+#draw-03 path:nth-child(4) {
+	animation-delay: 4.65s;
+}
+#draw-03 path:nth-child(9) {
+	stroke-dasharray: 800; 
+	stroke-dashoffset: 800;
+	animation-delay: 5s;
+	animation-duration: 4s;
+}
+#draw-03 path:nth-child(7) {
+	animation-delay: 5s;
+}
+#draw-03 path:nth-child(8) {
+	animation-delay: 5s;
+}
+#draw-03 path:nth-child(3) {
+	animation-delay: 5.4s;
+}
+#draw-03 path:nth-child(2) {
+	animation-delay: 5.8s;
+}
+#draw-03 path:last-child {
+	stroke-dasharray: 500; 
+	stroke-dashoffset: 500;
+	animation-delay: 6.2s;
+	animation-duration: 4.15s;
+}
+#draw-03 path:nth-child(6) {
+	animation-duration: 2.75s;
+}
+
+#draw-06 path:nth-child(2) {
+	animation-delay: 0.6s;
+}
+#draw-06 path:nth-child(3){
+	stroke-dasharray: 500; 
+	stroke-dashoffset: 500;
+	animation-delay: 5.1s;
+}
+#draw-06 path:nth-child(5){
+	animation-delay: 4.15s;
+}
+#draw-06 path:nth-child(6) {
+	animation-delay: 3.05s;
+}
+#draw-06 path:nth-child(7) {
+	animation-delay: 5.4s;
+}
+#draw-06 path:nth-child(8) {
+	animation-delay: 6.38s;
+}
+#draw-06 path:nth-child(9),
+#draw-06 path:nth-child(10) {
+	animation-delay: 7.38s;
+}
+#draw-06 path:nth-child(11) {
+	animation-delay: 8.2s;
+}
+
+#draw-06 path:last-child {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay: 0.45s;
+	/*animation-duration: 4.5s;*/
+}
+#draw-01 path,
+#draw-02 path,
+#draw-03 path,
+#draw-06 path,
+#draw-07 path {
+	display: none;
+}
+
+#draw-07 path:first-child {
+	animation-delay:4.4s;
+}
+#draw-07 path:nth-child(2),
+#draw-07 path:nth-child(3) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay:3s;
+}
+#draw-07 path:nth-child(3) {
+	animation-delay:4.4s;
+}
+#draw-07 path:nth-child(4) {
+	stroke-dasharray: 900; 
+	stroke-dashoffset: 900;
+	animation-delay:6.22s;
+}
+#draw-07 path:nth-child(5) {
+	animation-delay:0.22s;
+}
+#draw-07 path:nth-child(6) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay:1.6s;
+}
+#draw-07 path:last-child {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+}
+#draw-08 path {
+	/*stroke: purple;*/
+	display: none;
+}
+#draw-08 path:first-child {
+	stroke-dasharray: 900; 
+	stroke-dashoffset: 900;
+}
+#draw-08 path:nth-child(3) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay:7.45s;
+}
+#draw-08 path:nth-child(4) {
+	animation-delay:6.45s;
+}
+#draw-08 path:nth-child(5) {
+	stroke-dasharray: 900; 
+	stroke-dashoffset: 900;
+	animation-delay:4s;
+}
+#draw-08 path:nth-child(6) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay:5.2s;
+}
+#draw-08 path:nth-child(7) {
+	stroke-dasharray: 600; 
+	stroke-dashoffset: 600;
+	animation-delay:6s;
+}
+#draw-08 path:nth-child(8) {
+	animation-delay:4s;
+}
+#draw-08 path:nth-child(9) {
+	animation-delay:8.7s;
+}
+#draw-08 path:nth-child(10) {
+	animation-delay:9.2s;
+}
+#draw-08 path:nth-child(11) {
+	animation-delay:9.6s;
+}
+
+line {
+	stroke: rgba(224,224,224,0.8);
+}
+#about-blurb text{
+	letter-spacing: 0.5px;
+}
+.about-text {
+	font-family: 'Josefin Sans';
+}
+text, tspan {
+	fill: #e0e0e0;
+}
+tspan {
+	font-size: 13px;
+	font-family: "Merriweather";
+	letter-spacing: 0.5px;
+	font-weight: 300;
+}
+#about-blurb, #pic {
+	display: none;
+	animation: fadeIn 6s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+#fade circle,
+#fade path {
+	display: none;
+	animation: fadeIn 8s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	stroke-linecap: round;
+	stroke: rgba(224,224,224,0.8);
+	/*stroke:#000;*/
+}
+#pic image {
+	border-radius: 50%;
+}
+
+/* ANIMATIONS WOOOOO */
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideBack {
+	0% {
+		position: relative;
+		left: -40px;
+	}
+	100% {
+		position: relative;
+		left: 0px;
+	}
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+    transform: translate3d(0, 30%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}

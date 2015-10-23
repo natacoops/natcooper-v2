@@ -1,0 +1,243 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 1180px) {
+	.subpage .about a.button {
+		margin-bottom: 30px;
+	}
+	.subpage .hero {
+		height: 36vh;
+	}
+	.svg-wrap {
+		overflow:hidden;
+	}
+	.about.wrapper {
+		width: 100%;
+	}
+	svg.portrait {
+		path {
+			// stroke: #C00!important;
+		}
+	}
+	.subpage .about .assets {
+		margin-top: -160px;
+		img:first-child {
+			left: 16%;
+			width: 50%;
+			padding: 10px;
+		}
+	}
+	.subpage .about .assets img:last-child {
+		display:none;
+	}
+	.subpage .about.workSplash div.feature {
+		background: url("../img/work-main-feature.jpg") no-repeat top right -155px;
+	}
+	.contact {
+		padding-bottom:60px;
+		flex-direction: column;
+		div:first-child {
+		    width: 100%;
+		    margin-right: 0;
+		}
+		div:last-child {
+			margin:40px 0;
+		}
+	}
+	.subpage .about.indigo div.firstColumn,
+	.subpage .about.indigo div.lastColumn  {
+		width: 50%;
+		img {
+			width: 100%;
+		}
+	}
+
+}
+
+@media (max-width: 800px) {
+	.topcurls {
+		padding: 0 7%;
+	}
+	svg.portrait {
+	 	left: -35px;
+	}
+	.subpage h2 {
+		margin-bottom: 30px;
+	}
+	.work h3 {
+		margin-bottom: 30px;
+	}
+
+	.subpage .about .flexwrap {
+		flex-wrap: wrap;
+	}
+	.subpage .about .leftColumn {
+		width: 100%;
+	}
+
+	.subpage .wrapper,
+	.subpage .about div.wrapper,
+	.subpage .contact.wrapper  {
+		padding: 0 1% 20px 1%;
+	}
+	.subpage .wrapper {
+		padding: 0 1% 0px 1%;
+	}
+	
+	.subpage .about .rightColumn {
+		display:flex;
+		width: 100%;
+		p {
+			width: 100%;
+		}
+		img {
+			align-self: baseline;
+		    width: 40%;
+		    margin-right: 5%;
+
+		}
+	}
+	.subpage .about .flexwrap:nth-child(3) {
+		div:first-child {
+			display: none;
+		}
+	}
+	.subpage .about .assets {
+		margin-top:0px;
+		img {
+			&:first-child {
+				display: block;
+				left: 0;
+				width: 40%;
+			}
+			&:nth-child(2) {
+				width: 50%;
+				position: relative;
+				// right: -130px;
+				left:0;
+				// top: -30px;
+
+			}
+			&:nth-child(3) {
+				width: 100%;
+				margin: 30px;
+				display: none;
+			}
+			&:nth-child(4){
+				top: 0;
+				width: 80%;
+
+			}
+			&:last-child {
+					display:block;
+			}
+		}
+	}
+	.subpage .about .rightColumn img {
+		display: none;
+	}
+	.subpage .about.indigo .flexwrap {
+		flex-direction: column-reverse;
+		padding-top:10px;	
+		&:nth-child(odd){
+			flex-direction: column;
+		}
+		&:nth-child(3) div:first-child {
+		    display: block;
+		}
+	}
+	.subpage .about.indigo img.feature {
+		margin-bottom:20px;
+	}
+	.subpage .about.indigo .flexwrap:nth-child(3) {
+		margin-top:0;
+	}
+	.subpage .about.indigo .flexwrap img {
+		margin: 20px 0;
+	}
+	.subpage .about.workSplash div.feature {
+		padding: 30px 50% 60px 4%;
+	}
+	.subpage .about.indigo div.firstColumn,
+	.subpage .about.indigo div.lastColumn  {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+
+}
+
+@media (max-width: 420px) {
+ 	.contact form .halfTwo,
+ 	.contact form .half {
+ 	    width: 100%;
+ 	}
+ 	.topcurls {
+ 		padding: 0 4%;
+ 	}
+ 	.subpage .hero {
+ 	    height: 36vh;
+ 	}
+ 	.hero.wrapper.workSplash {
+ 	    height: 10vh;
+ 	}
+ 	.subpage .about.workSplash div.feature {
+ 		background:none;
+ 		padding:0;
+ 	}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	h2 {
+  		font-size: 42px;
+  	}
+	.natcooper-logo {
+		width: 800px; 
+  		height:200px;
+  		margin-top: -60%;
+	}
+	svg.portrait {
+		width:2280px;
+		height:2710px;
+	}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.natcooper-logo {
+  		width: 800px; 
+  		height:200px;
+  		margin-top: -60%;
+  	}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	.natcooper-logo {
+  		width: 800px; 
+  		height:200px;
+  		margin-top: -60%;
+  	}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.natcooper-logo {
+  		width: 800px; 
+  		height:200px;
+  		margin-top: -60%;
+  	}
+}

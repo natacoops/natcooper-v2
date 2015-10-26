@@ -7,7 +7,7 @@ Hello! Thanks for checking out my code! Read the story behind the design of my s
 
 If you have any suggestions for improvement, or just general feedback I would really love to hear from you! email me: nat@natcooper.com
 
-I'm also currently looking for a new exciting design opportunity with a rad company! Check out my resume ==> natcooper.com/work
+I'm also currently looking for a new exciting design opportunity with a rad company! More info here: natcooper.com/work
 -->
 <html lang="en">
 <head>
@@ -21,12 +21,14 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="../style.css">
+	
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
 	<!-- Facebook OG -->
 	<meta property="og:title" content="Let's create beautiful digital things together!" />
 	<meta property="og:site_name" content="Nat Cooper"/>
 	<meta property="og:url" content="http://natcooper.com" />
-	<meta property="og:description" content="Hey - I’m Nat! I build visually compelling applications and clean digital experiences." />
+	<meta property="og:description" content="Hey - I’m Nat! I build visually compelling applications and clean digital experiences. Curious & committed to life-long learning, I always have a list of things I want to learn or improve on." />
 	<meta property="og:image" content="http://natcooper.com/img/ncooper-social.jpg" />
 	<meta property="fb:app_id" content="[FB_APP_ID]" />
 	<meta property="og:type" content="website" />
@@ -36,7 +38,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<meta name="twitter:site" content="@natacoops">
 	<meta name="twitter:creator" content="@natacoops">
 	<meta name="twitter:title" content="Let's create beautiful digital things together!">
-	<meta name="twitter:description" content="Hey - I’m Nat! I build visually compelling applications and clean digital experiences.">
+	<meta name="twitter:description" content="Hey - I’m Nat! I build visually compelling applications and clean digital experiences. Curious & committed to life-long learning, I always have a list of things I want to learn or improve on.">
 	<meta name="twitter:image" content="http://natcooper.com/img/ncooper-social.jpg">
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -44,7 +46,8 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 </head>
 <body class="subpage" id="ground">
 	<main class="main">	
-			<svg class="topcurls" x="0px" y="0px" width="933.082px" viewBox="0 0 933.082 257.59" enable-background="new 0 0 933.082 257.59" xml:space="preserve">
+		<section class="curl-wrap">
+			<svg class="topcurls" x="0px" y="0px" viewBox="0 0 933.082 257.59" enable-background="new 0 0 933.082 257.59" xml:space="preserve">
 				<g id="third">
 					<path fill="none" stroke="#BE3192" stroke-width="1.5" stroke-miterlimit="10" d="M911.154-1.333
 						c-0.699,14.451-12.446,26.132-27.146,26.517c-8.61,0.226-16.413-3.477-21.689-9.476"/>
@@ -147,3 +150,4 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 						c7.679-3.659,16.755-0.922,21.212,6.071"/>
 				</g>
 			</svg>	
+		</section>

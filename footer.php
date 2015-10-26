@@ -1,6 +1,6 @@
 			<!-- Horizontal Line -->
 			<section class="hr-wrap wrapper">
-				<svg x="0px" y="0px" viewBox="0 0 1205 37" enable-background="new 0 0 1205 37" xml:space="preserve">
+				<svg x="0px" y="0px" width="1205px" viewBox="0 0 1205 37" enable-background="new 0 0 1205 37" xml:space="preserve">
 					<g>
 						<line fill="none" stroke="#E0E1E0" stroke-width="1.5" stroke-miterlimit="10" x1="602.5" y1="18.5" x2="6.002" y2="18.5"/>
 						<path fill="none" stroke="#E0E1E0" stroke-width="1.5" stroke-miterlimit="10" d="M28.999,18.782
@@ -24,7 +24,7 @@
 						<ul>
 							<li>Web design</li>
 							<li>Vector illustration</li>
-							<li>Speaking / teaching</li>
+							<li>Speaking/teaching</li>
 							<li>Interaction design</li>
 						</ul>
 						<ul>
@@ -46,7 +46,7 @@
 							<option value="Design project">Design project</option>
 							<option value="Development project">Development project</option>
 							<option value="Speaking / teaching">Speaking / teaching</option>
-							<option value="Exciting full-time opportunity">Full-time opportunity</option>
+							<option value="Exciting full-time opportunity">Exciting full-time opportunity</option>
 						</select>
 						<textarea name="message" id="" cols="30" rows="10"></textarea>
 						<input name="submit" type="submit">
@@ -71,9 +71,3 @@
 	</main>
 </body>
 </html>
-
-<!-- ::: CREDITS :::
-
-The speckled background used was found on SubtlePatterns.com - designed by Atle Mo <http://atle.co>
-Featured photography by Winston Chow <http://winstonchow.ca> and Pam Lau <http://pamlau.com>
-FontAwesome icons and Google Fonts were used in the making of this project. -->

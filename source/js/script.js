@@ -4,20 +4,20 @@ var scrollTrigg = $(window).height() * 0.5;
 
 $(document).ready(function() {
     // NUDGE POSITIONING OF PORTRAIT SVG UP A BIT
-    $('#about').css('margin-top', '-' + initHeight +'px');
+    $('#about, .mobile').css('margin-top', '-' + initHeight +'px');
     $('.topcurls').css('top', '-' + initHeight2 +'px');
 
 
 });
 
-// JUMP USER ON INITIAL SCROLL
-$(window).ready(function(){
-	if ($(this).scrollTop() < 10) {
-	    $(this).one('scroll', function(){
-	    	$('#scrolldown').trigger('click');
-	    });
-	} 
-});
+// JUMP USER ON INITIAL SCROLL - BAD IDEA LOL
+// $(window).ready(function(){
+// 	if ($(this).scrollTop() < 10) {
+// 	    $(this).one('scroll', function(){
+// 	    	$('#scrolldown').trigger('click');
+// 	    });
+// 	} 
+// });
 
 // BIND VERTICAL LINES TO SCROLL
 $(window).bind('mousewheel', function(e){
@@ -75,9 +75,7 @@ window.onload = function() {
             breakpoint: 1024,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: false,
-              dots: false
+              slidesToScroll: 1
             }
           },
           {
@@ -86,10 +84,14 @@ window.onload = function() {
               slidesToShow: 1,
               slidesToScroll: 1
             }
+          },
+          {
+            breakpoint: 300,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
   });
 

@@ -1,11 +1,17 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 1180px) {
+	.about div {
+		animation: none;
+	}
+	.topcurls {
+		width:inherit;
+	}
 	.subpage .about a.button {
 		margin-bottom: 30px;
 	}
 	.subpage .hero {
-		height: 36vh;
+		min-height: 36vh; 
 	}
 	.svg-wrap {
 		overflow:hidden;
@@ -55,7 +61,7 @@
 
 @media (max-width: 800px) {
 	.topcurls {
-		padding: 0 7%;
+		width:inherit;
 	}
 	svg.portrait {
 	 	left: -35px;
@@ -66,7 +72,10 @@
 	.work h3 {
 		margin-bottom: 30px;
 	}
-
+	.subpage .hero {
+	    min-height: 36vh;
+	    height: initial;
+	}
 	.subpage .about .flexwrap {
 		flex-wrap: wrap;
 	}
@@ -168,22 +177,30 @@
 }
 
 @media (max-width: 420px) {
+	.subpage h1 {
+		font-size: 30px;
+		margin-top:40px;
+	}
+	nav {
+		display:none;
+	}
  	.contact form .halfTwo,
  	.contact form .half {
  	    width: 100%;
  	}
  	.topcurls {
- 		padding: 0 4%;
+ 		// padding: 0 4%;
  	}
- 	.subpage .hero {
- 	    height: 36vh;
- 	}
+ 	
  	.hero.wrapper.workSplash {
  	    height: 10vh;
  	}
  	.subpage .about.workSplash div.feature {
  		background:none;
  		padding:0;
+ 	}
+ 	.subpage p.bump {
+ 		margin-top:0px;
  	}
 }
 
@@ -192,17 +209,90 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  	h2 {
-  		font-size: 42px;
+  	nav {
+  		display:none;
+  	}
+  	.subpage h1 {
+  		font-size: 30px;
+  		margin-top:40px;
+  	}
+  	h2, p {
+  		font-size: 13px;
+  	}
+  	h3 {
+  		// font-size:5.5rem;
+  		// padding: 20px 0 30px;
+  	}
+  	body {
+  		// max-width: 480px;
+  	}
+  	p, 
+  	.contact p, 
+  	ul, 
+  	.contact ul li, 
+  	footer a,
+  	footer p a {
+  		// font-size: 2.5rem;
+  		line-height: 1.5;
   	}
 	.natcooper-logo {
-		width: 800px; 
-  		height:200px;
+		width: 95%; 
+  		// height:200px;
   		margin-top: -60%;
 	}
-	svg.portrait {
-		width:2280px;
-		height:2710px;
+	svg.portrait,
+	#about, 
+	#work {
+		display:none;
+	}
+	.mobile {
+		display:block;
+		.about-wrap {
+			text-align: left;	
+			padding: 0 10% 80px;
+		}
+	}
+	#workSlider {
+		padding-top: 70px;
+	}
+	.contact form .half,
+	.contact form .halfTwo, 
+	select, 
+	textarea{
+		width: 100%;
+		margin:0;
+		// font-size: 3rem;
+		padding: 10px;
+	}
+	.contact form input[type="submit"] {
+		// width: 100%;
+		// margin:0;
+		// font-size: 3rem;
+		padding: 10px;
+	}
+	.contact select {
+		height: initial;
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.contact form .halfTwo {
+		margin-top: 10px;
+	}
+	footer section {
+		flex-direction: column;
+	}
+	footer .social {
+		font-size: 2rem;
+		margin: 0 10px;
+		padding: 5px;
+	}
+	footer .wrapper div:first-child {
+		margin:20px 0;
+		display:flex;
+		justify-content: space-around;
+	}
+	svg.topcurls {
+		display:none;
 	}
 }
 
@@ -211,11 +301,88 @@
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	.natcooper-logo {
-  		width: 800px; 
-  		height:200px;
-  		margin-top: -60%;
-  	}
+	.subpage h1 {
+	  		font-size: 30px;
+	  		margin:10px 0 0;
+	  	}
+	  	h2, p {
+	  		font-size: 13px;
+	  	}
+	  	h3 {
+	  		// font-size:5.5rem;
+	  		// padding: 20px 0 30px;
+	  	}
+	  	body {
+	  		// max-width: 480px;
+	  	}
+	  	p, 
+	  	.contact p, 
+	  	ul, 
+	  	.contact ul li, 
+	  	footer a,
+	  	footer p a {
+	  		// font-size: 2.5rem;
+	  		line-height: 1.5;
+	  	}
+		.natcooper-logo {
+			width: 95%; 
+	  		// height:200px;
+	  		margin-top: -60%;
+		}
+		svg.portrait,
+		#about, 
+		#work {
+			display:none;
+		}
+		.mobile {
+			display:block;
+			.about-wrap {
+				text-align: left;	
+				padding: 0 10% 80px;
+			}
+		}
+		#workSlider {
+			padding-top: 70px;
+		}
+		.contact form .half,
+		.contact form .halfTwo, 
+		select, 
+		textarea{
+			width: 100%;
+			margin:0;
+			// font-size: 3rem;
+			padding: 10px;
+		}
+		.contact form input[type="submit"] {
+			// width: 100%;
+			// margin:0;
+			// font-size: 3rem;
+			padding: 10px;
+		}
+		.contact select {
+			height: initial;
+			padding: 10px;
+			margin: 10px 0;
+		}
+		.contact form .halfTwo {
+			margin-top: 10px;
+		}
+		footer section {
+			flex-direction: column;
+		}
+		footer .social {
+			font-size: 2rem;
+			margin: 0 10px;
+			padding: 5px;
+		}
+		footer .wrapper div:first-child {
+			margin:20px 0;
+			display:flex;
+			justify-content: space-around;
+		}
+		svg.topcurls {
+			display:none;
+		}
 }
 
 /* Portrait and Landscape */
@@ -223,11 +390,88 @@
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-	.natcooper-logo {
-  		width: 800px; 
-  		height:200px;
-  		margin-top: -60%;
-  	}
+  	.subpage h1 {
+  	  		font-size: 30px;
+  	  		margin:10px 0 0;
+  	  	}
+  	  	h2, p {
+  	  		font-size: 13px;
+  	  	}
+  	  	h3 {
+  	  		// font-size:5.5rem;
+  	  		// padding: 20px 0 30px;
+  	  	}
+  	  	body {
+  	  		// max-width: 480px;
+  	  	}
+  	  	p, 
+  	  	.contact p, 
+  	  	ul, 
+  	  	.contact ul li, 
+  	  	footer a,
+  	  	footer p a {
+  	  		// font-size: 2.5rem;
+  	  		line-height: 1.5;
+  	  	}
+  		.natcooper-logo {
+  			width: 95%; 
+  	  		// height:200px;
+  	  		margin-top: -60%;
+  		}
+  		svg.portrait,
+  		#about, 
+  		#work {
+  			display:none;
+  		}
+  		.mobile {
+  			display:block;
+  			.about-wrap {
+  				text-align: left;	
+  				padding: 0 10% 80px;
+  			}
+  		}
+  		#workSlider {
+  			padding-top: 70px;
+  		}
+  		.contact form .half,
+  		.contact form .halfTwo, 
+  		select, 
+  		textarea{
+  			width: 100%;
+  			margin:0;
+  			// font-size: 3rem;
+  			padding: 10px;
+  		}
+  		.contact form input[type="submit"] {
+  			// width: 100%;
+  			// margin:0;
+  			// font-size: 3rem;
+  			padding: 10px;
+  		}
+  		.contact select {
+  			height: initial;
+  			padding: 10px;
+  			margin: 10px 0;
+  		}
+  		.contact form .halfTwo {
+  			margin-top: 10px;
+  		}
+  		footer section {
+  			flex-direction: column;
+  		}
+  		footer .social {
+  			font-size: 2rem;
+  			margin: 0 10px;
+  			padding: 5px;
+  		}
+  		footer .wrapper div:first-child {
+  			margin:20px 0;
+  			display:flex;
+  			justify-content: space-around;
+  		}
+  		svg.topcurls {
+  			display:none;
+  		}
 }
 
 /* Portrait and Landscape */
@@ -235,9 +479,86 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-	.natcooper-logo {
-  		width: 800px; 
-  		height:200px;
-  		margin-top: -60%;
-  	}
+  	.subpage h1 {
+  	  		font-size: 30px;
+  	  		margin:10px 0 0;
+  	  	}
+  	  	h2, p {
+  	  		font-size: 13px;
+  	  	}
+  	  	h3 {
+  	  		// font-size:5.5rem;
+  	  		// padding: 20px 0 30px;
+  	  	}
+  	  	body {
+  	  		// max-width: 480px;
+  	  	}
+  	  	p, 
+  	  	.contact p, 
+  	  	ul, 
+  	  	.contact ul li, 
+  	  	footer a,
+  	  	footer p a {
+  	  		// font-size: 2.5rem;
+  	  		line-height: 1.5;
+  	  	}
+  		.natcooper-logo {
+  			width: 95%; 
+  	  		// height:200px;
+  	  		margin-top: -60%;
+  		}
+  		svg.portrait,
+  		#about, 
+  		#work {
+  			display:none;
+  		}
+  		.mobile {
+  			display:block;
+  			.about-wrap {
+  				text-align: left;	
+  				padding: 0 10% 80px;
+  			}
+  		}
+  		#workSlider {
+  			padding-top: 70px;
+  		}
+  		.contact form .half,
+  		.contact form .halfTwo, 
+  		select, 
+  		textarea{
+  			width: 100%;
+  			margin:0;
+  			// font-size: 3rem;
+  			padding: 10px;
+  		}
+  		.contact form input[type="submit"] {
+  			// width: 100%;
+  			// margin:0;
+  			// font-size: 3rem;
+  			padding: 10px;
+  		}
+  		.contact select {
+  			height: initial;
+  			padding: 10px;
+  			margin: 10px 0;
+  		}
+  		.contact form .halfTwo {
+  			margin-top: 10px;
+  		}
+  		footer section {
+  			flex-direction: column;
+  		}
+  		footer .social {
+  			font-size: 2rem;
+  			margin: 0 10px;
+  			padding: 5px;
+  		}
+  		footer .wrapper div:first-child {
+  			margin:20px 0;
+  			display:flex;
+  			justify-content: space-around;
+  		}
+  		svg.topcurls {
+  			display:none;
+  		}
 }

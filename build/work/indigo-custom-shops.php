@@ -13,7 +13,7 @@
 						<div class="lastColumn">
 							<p class="bump">The Wedding Shop features elegant animated champagne bubbles in the top header and the main banner image on the left. There is also an animated background on one block, and hover effects applied to the top nav.</p>
 							<a class="button" href="https://www.chapters.indigo.ca/en-ca/gifts/wedding" target="_blank">view live</a>
-							<p>The Comic Book Shop was the project that sparked my interest in web animations, and I was able to animate a design that was already bold and exciting to begin with. I leaned heavily on <a class="bodyLink" href="https://daneden.github.io/animate.css/">Animate.css</a>, and modified the animation timing based on user scroll and hover effects. It was so much fun.</p>
+							<p class="bump">The Comic Book Shop was the project that sparked my interest in web animations, and I was able to animate a design that was already bold and exciting to begin with. I leaned heavily on <a class="bodyLink" href="https://daneden.github.io/animate.css/">Animate.css</a>, and modified the animation timing based on user scroll and hover effects. It was so much fun.</p>
 							<a class="button" href="https://www.chapters.indigo.ca/en-ca/comic-book-shop" target="_blank">view live</a>
 						</div>
 					</div>

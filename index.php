@@ -23,9 +23,9 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<!-- Facebook OG -->
 	<meta property="og:title" content="Let's create beautiful digital things together!" />
 	<meta property="og:site_name" content="Nat Cooper"/>
-	<meta property="og:url" content="http://natcooper.com">
-	<meta property="og:description" content="I’m Nat Cooper. I build visually compelling applications and clean digital experiences. Curious & committed to life-long learning, I always have a list of things I want to learn or improve on." />
-	<meta property="og:image" content="http://natcooper.com/img/ncooper-social.jpg" />
+	<meta property="og:url" content="http://natcooper.com" />
+	<meta property="og:description" content="I’m Nat Cooper. I build visually compelling applications and clean digital experiences." />
+	<meta property="og:image" content="img/ncooper-social.jpg" />
 	<meta property="fb:app_id" content="[FB_APP_ID]" />
 	<meta property="og:type" content="website" />
 
@@ -34,8 +34,8 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<meta name="twitter:site" content="@natacoops">
 	<meta name="twitter:creator" content="@natacoops">
 	<meta name="twitter:title" content="Let's create beautiful digital things together!">
-	<meta name="twitter:description" content="I’m Nat Cooper. I build visually compelling applications and clean digital experiences. Curious & committed to life-long learning, I always have a list of things I want to learn or improve on.">
-	<meta name="twitter:image" content="http://natcooper.com/img/ncooper-social.jpg">
+	<meta name="twitter:description" content="I’m Nat Cooper. I build visually compelling applications and clean digital experiences.">
+	<meta name="twitter:image" content="img/ncooper-social.jpg">
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>

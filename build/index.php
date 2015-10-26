@@ -37,8 +37,6 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<meta name="twitter:description" content="I’m Nat Cooper. I build visually compelling applications and clean digital experiences. Curious & committed to life-long learning, I always have a list of things I want to learn or improve on.">
 	<meta name="twitter:image" content="http://natcooper.com/img/ncooper-social.jpg">
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body id="ground">
 	<main class="main">
@@ -1217,4 +1215,4 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 				</svg>
 			</section>
 
-<?php include "work/footer.php" ?>
+<?php include "footer.php" ?>

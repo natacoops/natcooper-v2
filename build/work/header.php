@@ -40,9 +40,6 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<meta name="twitter:title" content="Let's create beautiful digital things together!">
 	<meta name="twitter:description" content="Hey - I’m Nat! I build visually compelling applications and clean digital experiences. Curious & committed to life-long learning, I always have a list of things I want to learn or improve on.">
 	<meta name="twitter:image" content="http://natcooper.com/img/ncooper-social.jpg">
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="../scripts.js"></script>
 </head>
 <body class="subpage" id="ground">
 	<main class="main">	

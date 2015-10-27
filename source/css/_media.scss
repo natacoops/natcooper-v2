@@ -202,6 +202,127 @@
  	.subpage p.bump {
  		margin-top:0px;
  	}
+ 	  	nav {
+ 	  		display:none;
+ 	  	}
+ 	  	.subpage h1 {
+ 	  		font-size: 30px;
+ 	  		margin-top:40px;
+ 	  	}
+ 	  	h2, p {
+ 	  		font-size: 13px;
+ 	  	}
+ 	  	h3 {
+ 	  		// font-size:5.5rem;
+ 	  		// padding: 20px 0 30px;
+ 	  	}
+ 	  	body {
+ 	  		// max-width: 480px;
+ 	  	}
+ 	  	p, 
+ 	  	.contact p, 
+ 	  	ul, 
+ 	  	.contact ul li, 
+ 	  	footer a,
+ 	  	footer p a {
+ 	  		// font-size: 2.5rem;
+ 	  		line-height: 1.5;
+ 	  	}
+ 		.natcooper-logo {
+ 			width: 95%; 
+ 	  		// height:200px;
+ 	  		margin-top: -60%;
+ 		}
+ 		svg.portrait,
+ 		#about, 
+ 		#work {
+ 			display:none;
+ 		}
+ 		.mobile {
+ 			display:block;
+ 			.about-wrap {
+ 				text-align: left;	
+ 				padding: 0 10% 80px;
+ 			}
+ 		}
+ 		#workSlider {
+ 			padding-top: 70px;
+ 		}
+ 		.contact form .half,
+ 		.contact form .halfTwo, 
+ 		select, 
+ 		textarea{
+ 			width: 100%;
+ 			margin:0;
+ 			// font-size: 3rem;
+ 			padding: 10px;
+ 		}
+ 		.contact .services-list {
+ 			flex-direction: column;
+ 		}
+ 		.contact form input[type="submit"] {
+ 			// width: 100%;
+ 			// margin:0;
+ 			// font-size: 3rem;
+ 			padding: 10px;
+ 		}
+ 		.contact select {
+ 			height: initial;
+ 			padding: 10px;
+ 			margin: 10px 0;
+ 		}
+ 		.contact form .halfTwo {
+ 			margin-top: 10px;
+ 		}
+ 		footer section {
+ 			flex-direction: column;
+ 		}
+ 		footer .social {
+ 			font-size: 2rem;
+ 			margin: 0 10px;
+ 			padding: 5px;
+ 		}
+ 		footer .wrapper div:first-child {
+ 			margin:20px 0;
+ 			display:flex;
+ 			justify-content: space-around;
+ 		}
+ 		svg.topcurls {
+ 			display:none;
+ 		}
+ 		.subpage .about .logoWrap {
+ 			display:flex;
+ 			border-bottom:1px solid #E0E0E0;
+ 		}
+ 		.subpage .hero h1{ 
+ 			margin-top:120px;
+ 		}
+ 		.subpage .about div.logoWrap.wrapper {
+ 			background: #232326; 
+ 			position:fixed;
+ 			top: 0; 
+ 			padding: 20px 0px;
+ 			margin:0;
+ 			width: 100%;
+ 			z-index:100;
+ 			svg.lostpage.natcooper-logo.nudge {
+ 				width: 80%;
+ 			}
+ 			a.button {
+ 				border: 1px solid #E0E0E0;
+ 				color: #E0E0E0;
+ 			}
+ 		}
+ 		.lostpage.natcooper-logo {
+ 			// margin: 0px auto 20px;
+ 			margin: 0;
+ 			path, line, polyline {
+ 			stroke: #E0E0E0;
+ 			}
+ 		}
+ 		.subpage h1.workHeader{
+ 			margin-top:70px;
+ 		}
 }
 
 /* Portrait and Landscape */
@@ -264,6 +385,9 @@
 		// font-size: 3rem;
 		padding: 10px;
 	}
+	.contact .services-list {
+		flex-direction: column;
+	}
 	.contact form input[type="submit"] {
 		// width: 100%;
 		// margin:0;
@@ -294,6 +418,40 @@
 	svg.topcurls {
 		display:none;
 	}
+	.subpage .about .logoWrap {
+		display:flex;
+		border-bottom:1px solid #E0E0E0;
+	}
+	.subpage .hero h1{ 
+		margin-top:120px;
+	}
+	.subpage .about div.logoWrap.wrapper {
+		background: #232326; 
+		position:fixed;
+		top: 0; 
+		padding: 20px 0px;
+		margin:0;
+		width: 100%;
+		z-index:100;
+		svg.lostpage.natcooper-logo.nudge {
+			width: 80%;
+		}
+		a.button {
+			border: 1px solid #E0E0E0;
+			color: #E0E0E0;
+		}
+	}
+	.lostpage.natcooper-logo {
+		// margin: 0px auto 20px;
+		margin: 0;
+		path, line, polyline {
+		stroke: #E0E0E0;
+		}
+	}
+	.subpage h1.workHeader{
+		margin-top:70px;
+	}
+
 }
 
 /* Portrait and Landscape */
@@ -301,9 +459,12 @@
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	.subpage h1 {
+	nav {
+	  		display:none;
+	  	}
+	  	.subpage h1 {
 	  		font-size: 30px;
-	  		margin:10px 0 0;
+	  		margin-top:40px;
 	  	}
 	  	h2, p {
 	  		font-size: 13px;
@@ -353,6 +514,9 @@
 			// font-size: 3rem;
 			padding: 10px;
 		}
+		.contact .services-list {
+			flex-direction: column;
+		}
 		.contact form input[type="submit"] {
 			// width: 100%;
 			// margin:0;
@@ -383,6 +547,39 @@
 		svg.topcurls {
 			display:none;
 		}
+		.subpage .about .logoWrap {
+			display:flex;
+			border-bottom:1px solid #E0E0E0;
+		}
+		.subpage .hero h1{ 
+			margin-top:120px;
+		}
+		.subpage .about div.logoWrap.wrapper {
+			background: #232326; 
+			position:fixed;
+			top: 0; 
+			padding: 20px 0px;
+			margin:0;
+			width: 100%;
+			z-index:100;
+			svg.lostpage.natcooper-logo.nudge {
+				width: 80%;
+			}
+			a.button {
+				border: 1px solid #E0E0E0;
+				color: #E0E0E0;
+			}
+		}
+		.lostpage.natcooper-logo {
+			// margin: 0px auto 20px;
+			margin: 0;
+			path, line, polyline {
+			stroke: #E0E0E0;
+			}
+		}
+		.subpage h1.workHeader{
+			margin-top:70px;
+		}
 }
 
 /* Portrait and Landscape */
@@ -390,9 +587,12 @@
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-  	.subpage h1 {
+  	nav {
+  	  		display:none;
+  	  	}
+  	  	.subpage h1 {
   	  		font-size: 30px;
-  	  		margin:10px 0 0;
+  	  		margin-top:40px;
   	  	}
   	  	h2, p {
   	  		font-size: 13px;
@@ -442,6 +642,9 @@
   			// font-size: 3rem;
   			padding: 10px;
   		}
+  		.contact .services-list {
+  			flex-direction: column;
+  		}
   		.contact form input[type="submit"] {
   			// width: 100%;
   			// margin:0;
@@ -471,6 +674,39 @@
   		}
   		svg.topcurls {
   			display:none;
+  		}
+  		.subpage .about .logoWrap {
+  			display:flex;
+  			border-bottom:1px solid #E0E0E0;
+  		}
+  		.subpage .hero h1{ 
+  			margin-top:120px;
+  		}
+  		.subpage .about div.logoWrap.wrapper {
+  			background: #232326; 
+  			position:fixed;
+  			top: 0; 
+  			padding: 20px 0px;
+  			margin:0;
+  			width: 100%;
+  			z-index:100;
+  			svg.lostpage.natcooper-logo.nudge {
+  				width: 80%;
+  			}
+  			a.button {
+  				border: 1px solid #E0E0E0;
+  				color: #E0E0E0;
+  			}
+  		}
+  		.lostpage.natcooper-logo {
+  			// margin: 0px auto 20px;
+  			margin: 0;
+  			path, line, polyline {
+  			stroke: #E0E0E0;
+  			}
+  		}
+  		.subpage h1.workHeader{
+  			margin-top:70px;
   		}
 }
 
@@ -479,9 +715,12 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-  	.subpage h1 {
+  	nav {
+  	  		display:none;
+  	  	}
+  	  	.subpage h1 {
   	  		font-size: 30px;
-  	  		margin:10px 0 0;
+  	  		margin-top:40px;
   	  	}
   	  	h2, p {
   	  		font-size: 13px;
@@ -531,6 +770,9 @@
   			// font-size: 3rem;
   			padding: 10px;
   		}
+  		.contact .services-list {
+  			flex-direction: column;
+  		}
   		.contact form input[type="submit"] {
   			// width: 100%;
   			// margin:0;
@@ -560,5 +802,38 @@
   		}
   		svg.topcurls {
   			display:none;
+  		}
+  		.subpage .about .logoWrap {
+  			display:flex;
+  			border-bottom:1px solid #E0E0E0;
+  		}
+  		.subpage .hero h1{ 
+  			margin-top:120px;
+  		}
+  		.subpage .about div.logoWrap.wrapper {
+  			background: #232326; 
+  			position:fixed;
+  			top: 0; 
+  			padding: 20px 0px;
+  			margin:0;
+  			width: 100%;
+  			z-index:100;
+  			svg.lostpage.natcooper-logo.nudge {
+  				width: 80%;
+  			}
+  			a.button {
+  				border: 1px solid #E0E0E0;
+  				color: #E0E0E0;
+  			}
+  		}
+  		.lostpage.natcooper-logo {
+  			// margin: 0px auto 20px;
+  			margin: 0;
+  			path, line, polyline {
+  			stroke: #E0E0E0;
+  			}
+  		}
+  		.subpage h1.workHeader{
+  			margin-top:70px;
   		}
 }

@@ -255,13 +255,28 @@ h1.workHeader {
 	animation-delay:2s;
 }
 
-#third path, #third circle {
+#third path, #third circle, 
+ #ncooper-back path, #ncooper-back circle, #ncooper-back line, #ncooper-back #logo rect,
+ #ncooper-back #logo text, #linkme-home text {
 	animation: fadeIn 6s;
 	opacity: 0;
 	animation-fill-mode: forwards;
 	animation-delay: 1.5s;
 	stroke-linecap: round;
 	stroke: rgba(224,224,224,1);
+}
+#ncooper-back #logo path, 
+#ncooper-back #logo rect,
+#linkme-home text  {
+	stroke: none;
+	fill: rgba(224,224,224,1);
+	font-family: 'Josefin Sans';
+}
+#ncooper-back #logo text {
+	font-family:'Josefin Sans';
+}
+#linkme-home:hover #linkme-home circle{
+	// fill: rgba(224,224,224,0.6);
 }
 #workSlider {
 	padding: 70px 0 20px;
@@ -355,4 +370,34 @@ h1.workHeader {
 
 .hero.wrapper.workSplash {
 	height: 36vh;
+}
+
+.lostpage.natcooper-logo {
+	// margin: 0px auto 20px;
+	margin: 0;
+	path, line, polyline {
+	stroke: #232326;
+	}
+}
+.subpage .workSplash.about .logoWrap,
+.subpage .about .logoWrap {
+	display: flex;
+	margin-bottom:40px;
+	// flex-direction: column;
+	// justify-content: center;
+	justify-content: space-between;
+	align-items: center;
+	a.button {
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+		padding:0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+}
+.subpage .about .logoWrap {
+	display:none;
 }

@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "http://natcooper.com/work/header.php" ?>
 <!-- 			<header class="hero wrapper workSplash">
 			</header> -->
 			<section class="about workSplash">
@@ -10,5 +10,5 @@
 				</div>
 			</section>
 
-<?php include "carousel.php" ?>
-<?php include "footer.php" ?>
+<?php include "http://natcooper.com/work/carousel.php" ?>
+<?php include "http://natcooper.com/work/footer.php" ?>

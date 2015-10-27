@@ -62,6 +62,7 @@
 						<a href="https://ca.linkedin.com/in/natacoops" class="social"><i class="fa  fa-linkedin"></i></a>
 						<a href="https://instagram.com/natacoops" class="social"><i class="fa  fa-instagram"></i></a>
 						<a href="http://codepen.io/natacoops" class="social"><i class="fa  fa-codepen"></i></a>
+						<a href="https://dribbble.com/natacoops" class="social"><i class="fa  fa-dribbble"></i></a>
 					</div>
 					<div>
 						<p><a href="http://natcooper.com">&copy; Nat Cooper 2015</a></p>

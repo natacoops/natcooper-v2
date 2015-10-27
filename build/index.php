@@ -629,19 +629,19 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 							<rect x="363.516" y="815.985" fill="none" width="376.998" height="182.503"/>
 							<text transform="matrix(1 0 0 1 355.5161 820.5557)">
 
-							<tspan x="0" y="0" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">Hello! I’m Nat Cooper. I build visually compelling  </tspan>
+							<tspan x="0" y="0" fill="#A1519F" font-size="15">Hello! I’m Nat Cooper. I build visually compelling  </tspan>
 
-							<tspan x="0" y="22" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">applications and clean digital experiences.</tspan>
+							<tspan x="0" y="22" fill="#A1519F"  font-size="15">applications and clean digital experiences.</tspan>
 
-							<tspan x="0" y="60" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">I have a passion for public speaking, teaching, and </tspan>
+							<tspan x="0" y="60" fill="#A1519F" font-size="15">I have a passion for public speaking, teaching, and </tspan>
 
 							<tspan x="0" y="82" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">helping others realize they can become powerful  </tspan>
 
-							<tspan x="0" y="104" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">creators of technology.</tspan>
+							<tspan x="0" y="104" fill="#A1519F" font-size="15">creators of technology.</tspan>
 
-							<tspan x="0" y="140" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">Curious &amp; committed to life-long learning, I always  </tspan>
+							<tspan x="0" y="140" fill="#A1519F"  font-size="15">Curious &amp; committed to life-long learning, I always  </tspan>
 
-							<tspan x="0" y="162" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">have a list of things I want to learn or improve on.</tspan></text>
+							<tspan x="0" y="162" fill="#A1519F" font-size="15">have a list of things I want to learn or improve on.</tspan></text>
 						</g>
 						<!-- portfolio image (headshot) -->
 						<g id="pic">
@@ -829,7 +829,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 					<h3>about</h3>
 					<p>Hello! I’m Nat Cooper. I build visually compelling applications and clean digital experiences.</p>
 
-					<p>I have a passion for public speaking, teaching, and helping others realize they can become powerful creators of technology.</p>
+					<p>With a passion for teaching and public speaking, I am committed to helping others realize they can become powerful creators of technology.</p>
 
 					<p>Curious & committed to life-long learning, I always have a list of things I want to learn or improve on.</p>
 				</div>

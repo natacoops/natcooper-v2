@@ -71,6 +71,13 @@
 			</footer>
 			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<script type="text/javascript" src="../scripts.js"></script>
+			<script>
+				$('.slider-item').each(function(i, slide) {
+					if (window.location.pathname.slice(6) == $(slide).data('work')) {
+						$(slide).remove();
+					}
+				});
+			</script>
 	</main>
 </body>
 </html>

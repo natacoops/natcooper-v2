@@ -11,10 +11,3 @@
 	
 </section>
 	
-<script>
-	$('.slider-item').each(function(i, slide) {
-		if (window.location.pathname.slice(6) == $(slide).data('work')) {
-			$(slide).remove();
-		}
-	});
-</script>

@@ -74,6 +74,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 				<h2>designer • developer • educator</h2>		
 				<nav>
 					<a id="scrolldown" href="#about"><i class="fa fa-angle-double-down">&nbsp;&nbsp;&nbsp;</i></a>
+					<a id="scrolldown-mobile" href="#about-mobile"><i class="fa fa-angle-double-down">&nbsp;&nbsp;&nbsp;</i></a>
 				</nav>	
 			</header>
 			<section id="about" class="about wrapper">
@@ -633,13 +634,13 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 
 							<tspan x="0" y="22" fill="#A1519F"  font-size="15">applications and clean digital experiences.</tspan>
 
-							<tspan x="0" y="60" fill="#A1519F" font-size="15">I have a passion for public speaking, teaching, and </tspan>
+							<tspan x="0" y="60" fill="#A1519F" font-size="15">With a passion for teaching and public speaking,</tspan>
 
-							<tspan x="0" y="82" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">helping others realize they can become powerful  </tspan>
+							<tspan x="0" y="82" fill="#A1519F" font-family="'Lora-Regular'" font-size="15">I am committed to helping others realize they can  </tspan>
 
-							<tspan x="0" y="104" fill="#A1519F" font-size="15">creators of technology.</tspan>
+							<tspan x="0" y="104" fill="#A1519F" font-size="15">become powerful creators of technology.</tspan>
 
-							<tspan x="0" y="140" fill="#A1519F"  font-size="15">Curious &amp; committed to life-long learning, I always  </tspan>
+							<tspan x="0" y="140" fill="#A1519F"  font-size="15">Curious &amp; dedicated to life-long learning, I always  </tspan>
 
 							<tspan x="0" y="162" fill="#A1519F" font-size="15">have a list of things I want to learn or improve on.</tspan></text>
 						</g>
@@ -687,7 +688,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 					</svg>
 				</div>
 			</section>
-			<section class="mobile">
+			<section id="about-mobile" class="mobile">
 				<svg class="portrait-mobile" x="0px" y="0px" viewBox="0 0 320 537.167" enable-background="new 0 0 320 537.167" xml:space="preserve"> 
 					<g id="PortfolioImg">
 						<g>
@@ -831,7 +832,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 
 					<p>With a passion for teaching and public speaking, I am committed to helping others realize they can become powerful creators of technology.</p>
 
-					<p>Curious & committed to life-long learning, I always have a list of things I want to learn or improve on.</p>
+					<p>Curious & dedicated to life-long learning, I always have a list of things I want to learn or improve on.</p>
 				</div>
 				<svg x="0px" y="0px" viewBox="0 0 320 537.167" enable-background="new 0 0 320 537.167" xml:space="preserve">
 					<g id="PortfolioImg">

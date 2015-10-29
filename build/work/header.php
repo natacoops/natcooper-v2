@@ -16,7 +16,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 	<link rel="icon" 
 	      type="image/png" 
 	      href="../img/ncooper-favicon2.png">
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300|Merriweather:400,300italic,300,400italic,900italic,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300|Merriweather:400,300italic,300,400italic,900italic,900|Open+Sans:300italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -45,7 +45,7 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 </head>
 <body class="subpage" id="ground">
 	<main class="main">	
-		<section class="curl-wrap">
+		<section class="curl-wrap wrapper">
 			<svg class="topcurls" x="0px" y="0px" viewBox="0 0 800 221.5" enable-background="new 0 0 800 221.5" xml:space="preserve">
 				<g id="third">
 					<path fill="none" stroke="#E0E0E0" stroke-width="1.5" stroke-miterlimit="10" d="M781.199-1.568
@@ -145,10 +145,10 @@ I'm also currently looking for a new exciting design opportunity with a rad comp
 				</g>
 				<g id="ncooper-back">
 					<g id="back">
-							<line fill="none" stroke="#BE3192" stroke-width="1.5" stroke-miterlimit="10" x1="691.051" y1="51.536" x2="691.051" y2="177.85"/>
+							<line fill="none" stroke="#BE3192" stroke-width="1" stroke-miterlimit="10" x1="691.051" y1="51.536" x2="691.051" y2="177.85"/>
 						<a class="link-home" xlink:href="http://natcooper.com">
 							<g id="linkme-home">
-								<circle fill="none" stroke="#BE3192" stroke-width="1.5" stroke-miterlimit="10" cx="691.051" cy="197.284" r="19.72"/>
+								<circle fill="none" stroke="#BE3192" stroke-width="0.5" stroke-miterlimit="10" cx="691.051" cy="197.284" r="19.72"/>
 								<text transform="matrix(1 0 0 1 678.1094 200.7144)" fill="#BE3192" font-size="10.2885">BACK</text>
 							</g>
 						</a>

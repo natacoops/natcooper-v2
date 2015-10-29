@@ -1,3 +1,4 @@
+@charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
@@ -227,7 +228,11 @@ nav {
 .wrapper {
   width: 85%;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1280px; }
+
+.subpage .about div.wrapper {
+  max-width: 1280px; }
 
 .hero {
   display: -webkit-box;
@@ -251,7 +256,7 @@ nav {
   margin-bottom: -10vh; }
 
 .subpage .hero {
-  height: 50vh;
+  height: inherit;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
@@ -268,13 +273,14 @@ nav {
           align-items: left;
   margin-bottom: 0px; }
 
+.curl-wrap {
+  position: relative; }
+
 .topcurls {
   width: 100%;
-  position: absolute;
-  padding: 0 13%;
-  top: 0;
-  left: 0;
-  margin: 0 auto; }
+  max-width: 1280px;
+  position: relative;
+  left: 0; }
   .topcurls path, .topcurls circle {
     stroke: #E0E0E0;
     stroke-width: 1.5px; }
@@ -284,6 +290,12 @@ nav {
           transition: 2s all;
   width: 320px;
   height: 50px; }
+
+nav #scrolldown {
+  display: block; }
+
+nav #scrolldown-mobile {
+  display: none; }
 
 .nudge {
   position: relative;
@@ -371,6 +383,8 @@ svg.portrait {
 
 .hr-wrap svg {
   width: 100%; }
+  .hr-wrap svg path {
+    display: none; }
 
 .hr-wrap svg line,
 .hr-wrap svg path {
@@ -1039,7 +1053,8 @@ h1.workHeader {
 
 .subpage .about div.wrapper {
   padding: 0 5%;
-  text-align: left; }
+  text-align: left;
+  max-width: 1280px; }
 
 .subpage .about div.feature {
   background: url("../img/work-main-feature.jpg") no-repeat top right;
@@ -1322,20 +1337,28 @@ h1.workHeader {
   width: 80%; }
 
 .slick-prev {
-  left: 5%; }
+  left: 3%; }
 
 .slick-next {
-  right: 5%; }
+  right: 3%; }
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: 'slick';
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1;
   opacity: .75;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'FontAwesome'; }
+
+.slick-prev:before {
+  content: ''; }
+
+.slick-next:before {
+  content: ''; }
 
 .hero.wrapper.workSplash {
   height: 36vh; }
@@ -1345,7 +1368,6 @@ h1.workHeader {
   .lostpage.natcooper-logo path, .lostpage.natcooper-logo line, .lostpage.natcooper-logo polyline {
     stroke: #232326; }
 
-.subpage .workSplash.about .logoWrap,
 .subpage .about .logoWrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1360,12 +1382,11 @@ h1.workHeader {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  .subpage .workSplash.about .logoWrap a.button,
   .subpage .about .logoWrap a.button {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    padding: 0;
+    height: 42px;
+    width: 42px;
+    padding: 2px 0 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1389,11 +1410,9 @@ h1.workHeader {
     -webkit-animation: none;
             animation: none; }
   .topcurls {
-    width: inherit; }
+    top: 0 !important; }
   .subpage .about a.button {
     margin-bottom: 30px; }
-  .subpage .hero {
-    min-height: 36vh; }
   .svg-wrap {
     overflow: hidden; }
   .about.wrapper {
@@ -1428,17 +1447,18 @@ h1.workHeader {
       width: 100%; } }
 
 @media (max-width: 800px) {
+  .curl-wrap {
+    width: 100%; }
   .topcurls {
-    width: inherit; }
+    top: -50px !important; }
   svg.portrait {
     left: -35px; }
   .subpage h2 {
     margin-bottom: 30px; }
   .work h3 {
     margin-bottom: 30px; }
-  .subpage .hero {
-    min-height: 36vh;
-    height: initial; }
+  .subpage .hero h1 {
+    margin-top: 0px; }
   .subpage .about .flexwrap {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -1518,24 +1538,20 @@ h1.workHeader {
     .subpage .about.indigo div.lastColumn img {
       width: 100%; } }
 
-@media (max-width: 420px) {
-  .subpage h1 {
-    font-size: 30px;
-    margin-top: 40px; }
-  nav {
-    display: none; }
-  .contact form .halfTwo,
-  .contact form .half {
-    width: 100%; }
-  .hero.wrapper.workSplash {
-    height: 10vh; }
+@media (max-width: 600px) {
   .subpage .about.workSplash div.feature {
-    background: none;
+    background: transparent;
     padding: 0; }
-  .subpage p.bump {
-    margin-top: 0px; }
-  nav {
+  .subpage p.photocreds {
     display: none; }
+  nav #scrolldown {
+    display: none; }
+  nav #scrolldown-mobile {
+    display: block; }
+  .slick-prev {
+    left: 0; }
+  .slick-next {
+    right: 0; }
   .subpage h1 {
     font-size: 30px;
     margin-top: 40px; }
@@ -1608,23 +1624,28 @@ h1.workHeader {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #E0E0E0; }
+    display: flex; }
   .subpage .hero h1 {
-    margin-top: 120px; }
+    margin-top: 100px; }
   .subpage .about div.logoWrap.wrapper {
     background: #232326;
     position: fixed;
     top: 0;
-    padding: 20px 0px;
+    padding: 20px 10px;
     margin: 0;
     width: 100%;
     z-index: 100; }
     .subpage .about div.logoWrap.wrapper svg.lostpage.natcooper-logo.nudge {
-      width: 80%; }
+      width: initial; }
     .subpage .about div.logoWrap.wrapper a.button {
       border: 1px solid #E0E0E0;
-      color: #E0E0E0; }
+      color: #E0E0E0;
+      font-size: 11px;
+      line-height: 11px;
+      margin-right: 10px; }
+      .subpage .about div.logoWrap.wrapper a.button:hover {
+        color: #232326;
+        background: #E0e0e0; }
   .lostpage.natcooper-logo {
     margin: 0; }
     .lostpage.natcooper-logo path, .lostpage.natcooper-logo line, .lostpage.natcooper-logo polyline {
@@ -1634,8 +1655,19 @@ h1.workHeader {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  nav {
+  .subpage .about.workSplash div.feature {
+    background: transparent;
+    padding: 0; }
+  .subpage p.photocreds {
     display: none; }
+  nav #scrolldown {
+    display: none; }
+  nav #scrolldown-mobile {
+    display: block; }
+  .slick-prev {
+    left: 0; }
+  .slick-next {
+    right: 0; }
   .subpage h1 {
     font-size: 30px;
     margin-top: 40px; }
@@ -1708,10 +1740,9 @@ h1.workHeader {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #E0E0E0; }
+    display: flex; }
   .subpage .hero h1 {
-    margin-top: 120px; }
+    margin-top: 100px; }
   .subpage .about div.logoWrap.wrapper {
     background: #232326;
     position: fixed;
@@ -1734,8 +1765,19 @@ h1.workHeader {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  nav {
+  .subpage .about.workSplash div.feature {
+    background: transparent;
+    padding: 0; }
+  .subpage p.photocreds {
     display: none; }
+  nav #scrolldown {
+    display: none; }
+  nav #scrolldown-mobile {
+    display: block; }
+  .slick-prev {
+    left: 0; }
+  .slick-next {
+    right: 0; }
   .subpage h1 {
     font-size: 30px;
     margin-top: 40px; }
@@ -1808,10 +1850,9 @@ h1.workHeader {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #E0E0E0; }
+    display: flex; }
   .subpage .hero h1 {
-    margin-top: 120px; }
+    margin-top: 100px; }
   .subpage .about div.logoWrap.wrapper {
     background: #232326;
     position: fixed;
@@ -1834,8 +1875,19 @@ h1.workHeader {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  nav {
+  .subpage .about.workSplash div.feature {
+    background: transparent;
+    padding: 0; }
+  .subpage p.photocreds {
     display: none; }
+  nav #scrolldown {
+    display: none; }
+  nav #scrolldown-mobile {
+    display: block; }
+  .slick-prev {
+    left: 0; }
+  .slick-next {
+    right: 0; }
   .subpage h1 {
     font-size: 30px;
     margin-top: 40px; }
@@ -1908,10 +1960,9 @@ h1.workHeader {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #E0E0E0; }
+    display: flex; }
   .subpage .hero h1 {
-    margin-top: 120px; }
+    margin-top: 100px; }
   .subpage .about div.logoWrap.wrapper {
     background: #232326;
     position: fixed;
@@ -1934,8 +1985,19 @@ h1.workHeader {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  nav {
+  .subpage .about.workSplash div.feature {
+    background: transparent;
+    padding: 0; }
+  .subpage p.photocreds {
     display: none; }
+  nav #scrolldown {
+    display: none; }
+  nav #scrolldown-mobile {
+    display: block; }
+  .slick-prev {
+    left: 0; }
+  .slick-next {
+    right: 0; }
   .subpage h1 {
     font-size: 30px;
     margin-top: 40px; }
@@ -2008,10 +2070,9 @@ h1.workHeader {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #E0E0E0; }
+    display: flex; }
   .subpage .hero h1 {
-    margin-top: 120px; }
+    margin-top: 100px; }
   .subpage .about div.logoWrap.wrapper {
     background: #232326;
     position: fixed;

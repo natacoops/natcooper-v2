@@ -88,6 +88,10 @@ nav {
 	width: 85%;
 	text-align: center;
 	margin: 0 auto;
+	max-width: 1280px;
+}
+.subpage .about div.wrapper {
+	max-width: 1280px;
 }
 .hero {
 	display: flex;
@@ -98,21 +102,24 @@ nav {
 	margin-bottom: -10vh;
 }
 .subpage .hero {
-	height: 50vh;
+	height: inherit;
 	align-items: flex-start;
     justify-content: flex-end;
     padding: 0 5% 20px 5%;
 	text-align: left;
 	align-items:left;
 	margin-bottom: 0px;
+	// margin-top: -10vh;
+
+}
+.curl-wrap{
+	position: relative;
 }
 .topcurls {
 	width: 100%;
-	position: absolute;
-	padding: 0 13%;
-	top: 0;
-	left:0;
-	margin: 0 auto;
+	max-width: 1280px;
+	position: relative;
+	left: 0;
 	path, circle {
 		stroke:#E0E0E0;
 		stroke-width: 1.5px;
@@ -122,6 +129,13 @@ nav {
 	transition: 2s all;
 	width: 320px; 
 	height: 50px;
+}
+// display:none;
+nav #scrolldown {
+	display: block;
+}
+nav #scrolldown-mobile {
+	display: none;
 }
 .nudge {
 	position: relative;
@@ -193,6 +207,9 @@ svg.portrait {
 
 .hr-wrap svg {
 	width: 100%;
+	path {
+		display: none;
+	}
 }
 
 .hr-wrap svg line,
@@ -346,7 +363,6 @@ footer section {
 	width: 35px;
 	height: 35px;
 }
-
 
 
 @import "pathAnimations";

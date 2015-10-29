@@ -1,5 +1,5 @@
 var initHeight = $(window).height() / 10;
-var initHeight2 = $(window).height() / 20;
+var initHeight2 = $(window).height() / 15;
 var scrollTrigg = $(window).height() * 0.5;
 
 $(document).ready(function() {
